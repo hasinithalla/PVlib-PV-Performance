@@ -73,6 +73,7 @@ plt.legend(loc=(1.0, 0))
 plt.xlabel('Module voltage [V]')
 plt.ylabel('Module current [A]')
 plt.title(parameters['Name'])
+
 plt.show()
 plt.gcf().set_tight_layout(True)
 # draw trend arrows
